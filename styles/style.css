@@ -1,0 +1,119 @@
+body{
+    
+    color:black;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.container-forms{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.form{
+    margin-top: 10px;
+    border: 3px solid black;
+    padding:10px;
+    
+}
+
+.form input{
+    height: 25px;
+}
+
+.container-cards{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 35px 90px ;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card{
+    margin-top: 15px;
+    background-color: rgb(113, 173, 24);
+}
+
+.container-img{
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    margin: auto;
+    padding-bottom: 10px;
+    
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.card h3{
+    padding:5px ;
+    font-size: 15px;
+
+}
+
+#containerSumar .container-img{
+    padding-top: 20px;
+}
+
+
+a{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+.boton{
+    margin:5px 40px;
+    padding:5px ;
+    background-color: rgb(34, 83, 67);
+    cursor: pointer;
+    border-radius: 10px;
+}
+@media screen and (max-width: 721px){
+    .container-forms{
+        display: grid;
+        grid-template-columns: 350px ;
+        grid-gap: 20px;
+        justify-content: center;
+       
+    }
+    .form{
+        margin-top: 10px;
+        border: 3px solid rgb(126, 9, 126);
+        padding:10px;
+        
+        
+    }
+
+    .form input{
+        height: 25px;
+        
+    }
+
+    .container-cards{
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: 300px 300px 300px 300px;
+        grid-gap: 2px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    .card{
+        margin-top: 15px;
+        background-color: rgb(197, 20, 153);
+    }
+
+    .boton{
+        margin:5px 40px;
+        padding:5px ;
+        background-color: rgb(45, 19, 87);
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}
